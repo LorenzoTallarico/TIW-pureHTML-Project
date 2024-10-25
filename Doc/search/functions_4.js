@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['getall_128',['getAll',['../classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#abb1f0208fb0627c6e97042af51f2c81a',1,'it::polimi::tiw::dao::FileDAO']]],
+  ['getconnection_129',['getConnection',['../classit_1_1polimi_1_1tiw_1_1utils_1_1ConnectionHandler.html#af641242d703322c6422b180919cc4ea0',1,'it::polimi::tiw::utils::ConnectionHandler']]],
+  ['getcreazione_130',['getCreazione',['../classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a4398ae393e58b9a07e29c7ac698241f2',1,'it::polimi::tiw::beans::File']]],
+  ['getdescrizione_131',['getDescrizione',['../classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#ad01dbedccde7438e871932c1eb6d8d85',1,'it::polimi::tiw::beans::File']]],
+  ['getdir_132',['getDir',['../classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#a4e1b3e5f55e8c1f888c21116b79ab52e',1,'it::polimi::tiw::dao::FileDAO']]],
+  ['getfigli_133',['getFigli',['../classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a4ed6551fd80edc8383ba305525d69131',1,'it::polimi::tiw::beans::File']]],
+  ['getfile_134',['getFile',['../classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#a3ac8369f579c9e0369b696e815d61239',1,'it::polimi::tiw::dao::FileDAO']]],
+  ['getfilefrom_135',['getFileFrom',['../classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#ae7b374ef44561b4aa30ea2aecf2b90da',1,'it::polimi::tiw::dao::FileDAO']]],
+  ['getid_136',['getId',['../classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a03eae7920e96789488974a59cdac7828',1,'it::polimi::tiw::beans::User']]],
+  ['getiddirpadre_137',['getIdDirPadre',['../classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a703b14b6db81b33b5757f4e0d825178b',1,'it::polimi::tiw::beans::File']]],
+  ['getiddocu_138',['getIdDocu',['../classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a0810daf1a1666f04b56a141cf1f5bd14',1,'it::polimi::tiw::beans::File']]],
+  ['getmail_139',['getMail',['../classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a06d7ae3aeb3936287321a3d480c4d066',1,'it::polimi::tiw::beans::User']]],
+  ['getnome_140',['getNome',['../classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#aac9199ca4757e1665088c7354b9fc896',1,'it.polimi.tiw.beans.File.getNome()'],['../classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#ad65795cef3de2d224361e7940f20f3f1',1,'it.polimi.tiw.beans.User.getNome()']]],
+  ['getnomepadre_141',['getNomePadre',['../classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a7ed223b84f0340c06b756be7278e4b6d',1,'it::polimi::tiw::beans::File']]],
+  ['getorder_142',['getOrder',['../classit_1_1polimi_1_1tiw_1_1utils_1_1TreeOrder.html#a691cbf4af1badb69b2741dc779b70bc5',1,'it::polimi::tiw::utils::TreeOrder']]],
+  ['getproprietario_143',['getProprietario',['../classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#ab35d481fe29606833dc0a97bbf2c0641',1,'it::polimi::tiw::beans::File']]],
+  ['gettipo_144',['getTipo',['../classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a86c6152549f49ebaf13a5b9e036eb331',1,'it::polimi::tiw::beans::File']]],
+  ['getuser_145',['getUser',['../classit_1_1polimi_1_1tiw_1_1dao_1_1UserDAO.html#a1324cd0f5779106d601653b856346117',1,'it::polimi::tiw::dao::UserDAO']]]
+];
