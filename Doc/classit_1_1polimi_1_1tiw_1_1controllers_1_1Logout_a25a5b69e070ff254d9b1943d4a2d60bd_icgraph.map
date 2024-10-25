@@ -1,0 +1,4 @@
+<map id="it.polimi.tiw.controllers.Logout.doGet" name="it.polimi.tiw.controllers.Logout.doGet">
+<area shape="rect" id="node1" title="Handles GET requests to log out the user by invalidating the session." alt="" coords="229,5,405,47"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1Logout.html#a21d76bd9f37be6f36f559bda0735269f" title="Handles POST requests by redirecting to the doGet method." alt="" coords="5,5,181,47"/>
+</map>

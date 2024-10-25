@@ -1,0 +1,4 @@
+<map id="it.polimi.tiw.controllers.CreateGestioneContenuti.doGet" name="it.polimi.tiw.controllers.CreateGestioneContenuti.doGet">
+<area shape="rect" id="node1" title="Handles GET requests to display the content management interface." alt="" coords="288,5,517,47"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateGestioneContenuti.html#a8df6751a5095aaf3cfb22d0eff765ad9" title="Handles POST requests by redirecting to the doGet method." alt="" coords="5,5,240,47"/>
+</map>

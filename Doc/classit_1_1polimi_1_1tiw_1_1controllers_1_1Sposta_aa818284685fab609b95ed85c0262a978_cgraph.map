@@ -1,0 +1,4 @@
+<map id="it.polimi.tiw.controllers.Sposta.init" name="it.polimi.tiw.controllers.Sposta.init">
+<area shape="rect" id="node1" title="Initializes the servlet by establishing a database connection and setting up the template engine." alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1utils_1_1ConnectionHandler.html#af641242d703322c6422b180919cc4ea0" title="Establishes a database connection using parameters from the servlet context." alt="" coords="229,5,437,47"/>
+</map>

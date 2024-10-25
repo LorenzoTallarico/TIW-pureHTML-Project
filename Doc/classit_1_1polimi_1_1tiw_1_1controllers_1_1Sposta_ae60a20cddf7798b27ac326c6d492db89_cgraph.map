@@ -1,0 +1,6 @@
+<map id="it.polimi.tiw.controllers.Sposta.doPost" name="it.polimi.tiw.controllers.Sposta.doPost">
+<area shape="rect" id="node1" title="Handles POST requests to move a file from one directory to another." alt="" coords="5,23,181,65"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a03eae7920e96789488974a59cdac7828" title="Gets the unique identifier for the user." alt="" coords="247,5,459,32"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#aca6cd5ddd71eb7dcd1866dc668ee8a88" title="Moves a file to a new directory." alt="" coords="229,56,476,83"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#a37fe7a234b71a995a6df3e891df25a5a" title="Checks if a specific ID corresponds to a directory owned by a user." alt="" coords="524,56,741,83"/>
+</map>

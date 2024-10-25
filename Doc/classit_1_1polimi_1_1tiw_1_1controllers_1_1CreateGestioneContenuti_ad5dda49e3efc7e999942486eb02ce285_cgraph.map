@@ -1,0 +1,9 @@
+<map id="it.polimi.tiw.controllers.CreateGestioneContenuti.doGet" name="it.polimi.tiw.controllers.CreateGestioneContenuti.doGet">
+<area shape="rect" id="node1" title="Handles GET requests to display the content management interface." alt="" coords="5,125,235,167"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#a4e1b3e5f55e8c1f888c21116b79ab52e" title="Retrieves all directories owned by a user." alt="" coords="283,107,509,134"/>
+<area shape="rect" id="node7" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a03eae7920e96789488974a59cdac7828" title="Gets the unique identifier for the user." alt="" coords="290,158,502,185"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#ac9c2bc38db72e6b30deffba5831024dc" title="Sets the parent directory ID." alt="" coords="577,5,770,47"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a9e7dfd6b2ae148836dc11b63b020d58c" title="Sets the document ID." alt="" coords="577,71,770,112"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a68e8a27f3a7e1bde9ef03415dcbe8b93" title="Sets the name of the file or directory." alt="" coords="557,137,789,163"/>
+<area shape="rect" id="node6" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a43ccefc7eb7dd285a0ab4f9b6e59895a" title="Sets the type of the file." alt="" coords="563,187,784,214"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="it.polimi.tiw.dao.FileDAO.getFile" name="it.polimi.tiw.dao.FileDAO.getFile">
+<area shape="rect" id="node1" title="Retrieves the details of a specific file." alt="" coords="475,13,705,39"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateDescrizione.html#ae9c8bd8baf7ffb6d07dc401f649da034" title="Handles POST requests to retrieve and display file information." alt="" coords="237,5,427,47"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateDescrizione.html#ab2655cff706ec90340568215bb461134" title="Handles GET requests by redirecting to the doPost method." alt="" coords="5,5,189,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="it.polimi.tiw.controllers.Sposta.doGet" name="it.polimi.tiw.controllers.Sposta.doGet">
+<area shape="rect" id="node1" title="Handles GET requests by redirecting to the doPost method." alt="" coords="5,23,181,65"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1Sposta.html#ae60a20cddf7798b27ac326c6d492db89" title="Handles POST requests to move a file from one directory to another." alt="" coords="229,23,405,65"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a03eae7920e96789488974a59cdac7828" title="Gets the unique identifier for the user." alt="" coords="471,5,683,32"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#aca6cd5ddd71eb7dcd1866dc668ee8a88" title="Moves a file to a new directory." alt="" coords="453,56,700,83"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#a37fe7a234b71a995a6df3e891df25a5a" title="Checks if a specific ID corresponds to a directory owned by a user." alt="" coords="748,56,965,83"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="it.polimi.tiw.controllers.CreateHome.doGet" name="it.polimi.tiw.controllers.CreateHome.doGet">
+<area shape="rect" id="node1" title="Handles GET requests to display the user&#39;s home page." alt="" coords="5,188,181,229"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#a4e1b3e5f55e8c1f888c21116b79ab52e" title="Retrieves all directories owned by a user." alt="" coords="229,107,456,134"/>
+<area shape="rect" id="node7" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a4ed6551fd80edc8383ba305525d69131" title="Gets the list of child files or directories." alt="" coords="245,159,440,200"/>
+<area shape="rect" id="node8" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a03eae7920e96789488974a59cdac7828" title="Gets the unique identifier for the user." alt="" coords="237,225,449,251"/>
+<area shape="rect" id="node9" href="$classit_1_1polimi_1_1tiw_1_1utils_1_1TreeOrder.html#a691cbf4af1badb69b2741dc779b70bc5" title="Organizes a list of files into a tree structure." alt="" coords="261,276,424,317"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#ac9c2bc38db72e6b30deffba5831024dc" title="Sets the parent directory ID." alt="" coords="523,5,717,47"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a9e7dfd6b2ae148836dc11b63b020d58c" title="Sets the document ID." alt="" coords="523,71,717,112"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a68e8a27f3a7e1bde9ef03415dcbe8b93" title="Sets the name of the file or directory." alt="" coords="504,137,736,163"/>
+<area shape="rect" id="node6" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a43ccefc7eb7dd285a0ab4f9b6e59895a" title="Sets the type of the file." alt="" coords="509,187,731,214"/>
+<area shape="rect" id="node10" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a5aa3ffdb099dd2560ea9897392636890" title="Adds a child file or directory." alt="" coords="521,276,719,317"/>
+</map>

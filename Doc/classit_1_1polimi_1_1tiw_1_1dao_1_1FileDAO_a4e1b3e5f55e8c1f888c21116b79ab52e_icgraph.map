@@ -1,0 +1,7 @@
+<map id="it.polimi.tiw.dao.FileDAO.getDir" name="it.polimi.tiw.dao.FileDAO.getDir">
+<area shape="rect" id="node1" title="Retrieves all directories owned by a user." alt="" coords="565,46,792,73"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateGestioneContenuti.html#ad5dda49e3efc7e999942486eb02ce285" title="Handles GET requests to display the content management interface." alt="" coords="288,5,517,47"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateHome.html#a9c30bd7572a89b4ea623a4af2933d53c" title="Handles GET requests to display the user&#39;s home page." alt="" coords="315,71,491,112"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateGestioneContenuti.html#a8df6751a5095aaf3cfb22d0eff765ad9" title="Handles POST requests by redirecting to the doGet method." alt="" coords="5,5,240,47"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateHome.html#ac75ed1f94fa8974279f1b1fae684c144" title="Handles POST requests by redirecting to the doGet method." alt="" coords="35,71,211,112"/>
+</map>

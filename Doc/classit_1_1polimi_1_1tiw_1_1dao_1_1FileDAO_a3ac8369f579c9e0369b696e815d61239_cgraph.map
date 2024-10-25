@@ -1,0 +1,10 @@
+<map id="it.polimi.tiw.dao.FileDAO.getFile" name="it.polimi.tiw.dao.FileDAO.getFile">
+<area shape="rect" id="node1" title="Retrieves the details of a specific file." alt="" coords="5,209,236,235"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a5e9b6ca4acf250ad85c3ffbed185a6a8" title="Sets the creation date of the file or directory." alt="" coords="303,5,497,47"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#ad977de54872921aa6f05b516c7660b37" title="Sets the description of the file or directory." alt="" coords="303,71,497,112"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#ac9c2bc38db72e6b30deffba5831024dc" title="Sets the parent directory ID." alt="" coords="303,136,497,177"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a9e7dfd6b2ae148836dc11b63b020d58c" title="Sets the document ID." alt="" coords="303,201,497,243"/>
+<area shape="rect" id="node6" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a68e8a27f3a7e1bde9ef03415dcbe8b93" title="Sets the name of the file or directory." alt="" coords="284,267,516,294"/>
+<area shape="rect" id="node7" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#afed421644e245fc98493e82ae7d4794c" title="Sets the name of the parent directory." alt="" coords="303,319,497,360"/>
+<area shape="rect" id="node8" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a43ccefc7eb7dd285a0ab4f9b6e59895a" title="Sets the type of the file." alt="" coords="289,385,511,411"/>
+</map>
