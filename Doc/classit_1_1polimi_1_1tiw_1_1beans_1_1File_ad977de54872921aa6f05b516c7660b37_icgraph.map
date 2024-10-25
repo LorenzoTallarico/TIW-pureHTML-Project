@@ -1,0 +1,9 @@
+<map id="it.polimi.tiw.beans.File.setDescrizione" name="it.polimi.tiw.beans.File.setDescrizione">
+<area shape="rect" id="node1" title="Sets the description of the file or directory." alt="" coords="753,41,947,83"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#a3ac8369f579c9e0369b696e815d61239" title="Retrieves the details of a specific file." alt="" coords="475,17,705,43"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#ae7b374ef44561b4aa30ea2aecf2b90da" title="Retrieves all files in a specific directory owned by a user." alt="" coords="486,71,694,112"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateDescrizione.html#ae9c8bd8baf7ffb6d07dc401f649da034" title="Handles POST requests to retrieve and display file information." alt="" coords="237,5,427,47"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateDescrizione.html#ab2655cff706ec90340568215bb461134" title="Handles GET requests by redirecting to the doPost method." alt="" coords="5,5,189,47"/>
+<area shape="rect" id="node6" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateContenuti.html#acdbd87016c90d7acbad3ba1fd1d6b2e1" title="Handles GET requests for creating contents." alt="" coords="244,71,420,112"/>
+<area shape="rect" id="node7" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateContenuti.html#a7cf125fa2a621a9bd7e68a21cb383765" title="Handles POST requests for creating contents." alt="" coords="244,136,420,177"/>
+</map>

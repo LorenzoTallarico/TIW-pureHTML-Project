@@ -1,0 +1,5 @@
+<map id="it.polimi.tiw.beans.User.setMail" name="it.polimi.tiw.beans.User.setMail">
+<area shape="rect" id="node1" title="Sets the email address of the user." alt="" coords="523,13,749,39"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1UserDAO.html#a1324cd0f5779106d601653b856346117" title="Retrieves a user from the database using their email and password." alt="" coords="229,13,475,39"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CheckLogin.html#ad02a56fc78a3ffcb2a5525c182b5f4d1" title="Handles POST requests to authenticate a user." alt="" coords="5,5,181,47"/>
+</map>

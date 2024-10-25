@@ -1,0 +1,7 @@
+<map id="it.polimi.tiw.beans.File.getFigli" name="it.polimi.tiw.beans.File.getFigli">
+<area shape="rect" id="node1" title="Gets the list of child files or directories." alt="" coords="453,39,648,80"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateHome.html#a9c30bd7572a89b4ea623a4af2933d53c" title="Handles GET requests to display the user&#39;s home page." alt="" coords="229,5,405,47"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateSposta.html#a368c3dc5a19dd335dcba37cd27a5b0a3" title="Handles POST requests to move a file to a specified directory." alt="" coords="229,71,405,112"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateHome.html#ac75ed1f94fa8974279f1b1fae684c144" title="Handles POST requests by redirecting to the doGet method." alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateSposta.html#ae5365bf68485b1858b075a2227e5fae1" title="Handles GET requests by redirecting to the doPost method." alt="" coords="5,71,181,112"/>
+</map>
