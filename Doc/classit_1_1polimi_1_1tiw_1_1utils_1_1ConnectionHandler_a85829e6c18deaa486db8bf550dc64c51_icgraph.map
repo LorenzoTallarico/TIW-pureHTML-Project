@@ -1,0 +1,12 @@
+<map id="it.polimi.tiw.utils.ConnectionHandler.closeConnection" name="it.polimi.tiw.utils.ConnectionHandler.closeConnection">
+<area shape="rect" id="node1" title="Closes the given database connection." alt="" coords="292,267,500,308"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CheckLogin.html#a975328c38b0e89a9aed3eaccf4422bca" title="Closes the connection when the servlet is destroyed." alt="" coords="37,5,213,47"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CheckRegistrazione.html#ac38b10bac0566c033f3cfd995ccf9f0d" title="Cleans up resources when the servlet is destroyed." alt="" coords="23,71,227,112"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateContenuti.html#a943e08f714066e3b31cee7857b357c3a" title="Cleans up resources when the servlet is destroyed." alt="" coords="34,136,215,177"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateDescrizione.html#ac426a94f5ec31ab0308f95d521bae3ee" title="Cleans up resources when the servlet is destroyed." alt="" coords="27,201,222,243"/>
+<area shape="rect" id="node6" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateFile.html#ad50e5f94064390bb62ecfa9e330df6d0" title="Cleans up resources when the servlet is destroyed." alt="" coords="37,267,213,308"/>
+<area shape="rect" id="node7" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateGestioneContenuti.html#a51ee1259783122f0de0eb5939f2a0732" title="Cleans up resources when the servlet is destroyed." alt="" coords="5,332,244,373"/>
+<area shape="rect" id="node8" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateHome.html#ad68a4a4d6219adfb62f95ff0e26bae07" title="Cleans up resources when the servlet is destroyed." alt="" coords="37,397,213,439"/>
+<area shape="rect" id="node9" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateSposta.html#a4fa6565009f1879ffc87f1df3a5eca61" title="Cleans up resources when the servlet is destroyed." alt="" coords="37,463,213,504"/>
+<area shape="rect" id="node10" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1Sposta.html#acff245c89cd14f03039ad1f51d271456" title="Cleans up resources before the servlet is destroyed." alt="" coords="37,528,213,569"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="it.polimi.tiw.dao.FileDAO.moveFile" name="it.polimi.tiw.dao.FileDAO.moveFile">
+<area shape="rect" id="node1" title="Moves a file to a new directory." alt="" coords="453,13,700,39"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1Sposta.html#ae60a20cddf7798b27ac326c6d492db89" title="Handles POST requests to move a file from one directory to another." alt="" coords="229,5,405,47"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1Sposta.html#aa47c4eb5e692843d7714bf98cb4892ae" title="Handles GET requests by redirecting to the doPost method." alt="" coords="5,5,181,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="it.polimi.tiw.dao.FileDAO.newDocu" name="it.polimi.tiw.dao.FileDAO.newDocu">
+<area shape="rect" id="node1" title="Inserts a new file or directory into the database." alt="" coords="453,13,700,39"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateFile.html#a9908816c6ceb19693d7f2530430eba26" title="Handles POST requests to create a new file or directory." alt="" coords="229,5,405,47"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateFile.html#af9645b25ecee794ffe8990705f6051a2" title="Handles GET requests by redirecting to the doPost method." alt="" coords="5,5,181,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="it.polimi.tiw.dao.UserDAO.getUser" name="it.polimi.tiw.dao.UserDAO.getUser">
+<area shape="rect" id="node1" title="Retrieves a user from the database using their email and password." alt="" coords="5,81,251,108"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a03eae7920e96789488974a59cdac7828" title="Gets the unique identifier for the user." alt="" coords="312,5,524,32"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a31a4e2a374591a10b4457e2a2f621a64" title="Sets the unique identifier for the user." alt="" coords="313,56,523,83"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a4d76177981580b08d44ffa2ce3a689b5" title="Sets the email address of the user." alt="" coords="305,107,531,133"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a9ec69c333ea464e39baffaa7eca723dc" title="Sets the name of the user." alt="" coords="299,157,537,184"/>
+</map>

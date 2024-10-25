@@ -1,0 +1,4 @@
+<map id="it.polimi.tiw.dao.FileDAO.moveFile" name="it.polimi.tiw.dao.FileDAO.moveFile">
+<area shape="rect" id="node1" title="Moves a file to a new directory." alt="" coords="5,5,252,32"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#a37fe7a234b71a995a6df3e891df25a5a" title="Checks if a specific ID corresponds to a directory owned by a user." alt="" coords="300,5,517,32"/>
+</map>

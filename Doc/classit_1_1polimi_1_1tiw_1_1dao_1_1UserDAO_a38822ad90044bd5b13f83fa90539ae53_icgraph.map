@@ -1,0 +1,5 @@
+<map id="it.polimi.tiw.dao.UserDAO.isExistingUsername" name="it.polimi.tiw.dao.UserDAO.isExistingUsername">
+<area shape="rect" id="node1" title="Checks if a given username exists in the database." alt="" coords="548,5,753,47"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1UserDAO.html#a7593045951d43b013bfee9e65a81d167" title="Adds a new user to the database." alt="" coords="252,13,500,39"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CheckRegistrazione.html#aa44eeb1b0193e7f4140768a2b82921c0" title="Handles POST requests for user registration." alt="" coords="5,5,204,47"/>
+</map>

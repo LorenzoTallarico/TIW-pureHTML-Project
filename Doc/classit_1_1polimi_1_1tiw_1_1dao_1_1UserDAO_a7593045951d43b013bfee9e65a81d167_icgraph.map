@@ -1,0 +1,4 @@
+<map id="it.polimi.tiw.dao.UserDAO.addUser" name="it.polimi.tiw.dao.UserDAO.addUser">
+<area shape="rect" id="node1" title="Adds a new user to the database." alt="" coords="252,13,500,39"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CheckRegistrazione.html#aa44eeb1b0193e7f4140768a2b82921c0" title="Handles POST requests for user registration." alt="" coords="5,5,204,47"/>
+</map>

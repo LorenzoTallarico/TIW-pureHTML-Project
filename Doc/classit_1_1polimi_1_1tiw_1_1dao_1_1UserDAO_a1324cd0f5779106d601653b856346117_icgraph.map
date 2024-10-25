@@ -1,0 +1,4 @@
+<map id="it.polimi.tiw.dao.UserDAO.getUser" name="it.polimi.tiw.dao.UserDAO.getUser">
+<area shape="rect" id="node1" title="Retrieves a user from the database using their email and password." alt="" coords="229,13,475,39"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CheckLogin.html#ad02a56fc78a3ffcb2a5525c182b5f4d1" title="Handles POST requests to authenticate a user." alt="" coords="5,5,181,47"/>
+</map>

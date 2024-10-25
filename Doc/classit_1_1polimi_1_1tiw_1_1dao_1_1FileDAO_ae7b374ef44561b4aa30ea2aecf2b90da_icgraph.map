@@ -1,0 +1,5 @@
+<map id="it.polimi.tiw.dao.FileDAO.getFileFrom" name="it.polimi.tiw.dao.FileDAO.getFileFrom">
+<area shape="rect" id="node1" title="Retrieves all files in a specific directory owned by a user." alt="" coords="229,39,437,80"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateContenuti.html#acdbd87016c90d7acbad3ba1fd1d6b2e1" title="Handles GET requests for creating contents." alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateContenuti.html#a7cf125fa2a621a9bd7e68a21cb383765" title="Handles POST requests for creating contents." alt="" coords="5,71,181,112"/>
+</map>
