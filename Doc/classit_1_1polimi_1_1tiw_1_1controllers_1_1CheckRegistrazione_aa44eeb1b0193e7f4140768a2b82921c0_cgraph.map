@@ -1,0 +1,6 @@
+<map id="it.polimi.tiw.controllers.CheckRegistrazione.doPost" name="it.polimi.tiw.controllers.CheckRegistrazione.doPost">
+<area shape="rect" id="node1" title="Handles POST requests for user registration." alt="" coords="5,39,204,80"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1UserDAO.html#a7593045951d43b013bfee9e65a81d167" title="Adds a new user to the database." alt="" coords="252,46,500,73"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1UserDAO.html#a52cedb1ec684ab7ae5d4d14601c212b1" title="Checks if a given email exists in the database." alt="" coords="548,5,753,47"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1UserDAO.html#a38822ad90044bd5b13f83fa90539ae53" title="Checks if a given username exists in the database." alt="" coords="548,71,753,112"/>
+</map>

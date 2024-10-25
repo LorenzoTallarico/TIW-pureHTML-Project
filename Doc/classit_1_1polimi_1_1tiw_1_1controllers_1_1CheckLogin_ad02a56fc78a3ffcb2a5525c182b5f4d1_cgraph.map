@@ -1,0 +1,8 @@
+<map id="it.polimi.tiw.controllers.CheckLogin.doPost" name="it.polimi.tiw.controllers.CheckLogin.doPost">
+<area shape="rect" id="node1" title="Handles POST requests to authenticate a user." alt="" coords="5,74,181,115"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1UserDAO.html#a1324cd0f5779106d601653b856346117" title="Retrieves a user from the database using their email and password." alt="" coords="229,81,475,108"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a03eae7920e96789488974a59cdac7828" title="Gets the unique identifier for the user." alt="" coords="536,5,748,32"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a31a4e2a374591a10b4457e2a2f621a64" title="Sets the unique identifier for the user." alt="" coords="537,56,747,83"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a4d76177981580b08d44ffa2ce3a689b5" title="Sets the email address of the user." alt="" coords="529,107,755,133"/>
+<area shape="rect" id="node6" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a9ec69c333ea464e39baffaa7eca723dc" title="Sets the name of the user." alt="" coords="523,157,761,184"/>
+</map>

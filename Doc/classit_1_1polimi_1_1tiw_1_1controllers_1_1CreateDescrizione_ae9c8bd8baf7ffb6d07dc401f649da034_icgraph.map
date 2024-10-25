@@ -1,0 +1,4 @@
+<map id="it.polimi.tiw.controllers.CreateDescrizione.doPost" name="it.polimi.tiw.controllers.CreateDescrizione.doPost">
+<area shape="rect" id="node1" title="Handles POST requests to retrieve and display file information." alt="" coords="237,5,427,47"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1controllers_1_1CreateDescrizione.html#ab2655cff706ec90340568215bb461134" title="Handles GET requests by redirecting to the doPost method." alt="" coords="5,5,189,47"/>
+</map>

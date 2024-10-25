@@ -1,0 +1,4 @@
+<map id="it.polimi.tiw.controllers.CreateDescrizione.destroy" name="it.polimi.tiw.controllers.CreateDescrizione.destroy">
+<area shape="rect" id="node1" title="Cleans up resources when the servlet is destroyed." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1utils_1_1ConnectionHandler.html#a85829e6c18deaa486db8bf550dc64c51" title="Closes the given database connection." alt="" coords="248,5,456,47"/>
+</map>

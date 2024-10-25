@@ -1,0 +1,13 @@
+<map id="it.polimi.tiw.controllers.CreateDescrizione.doPost" name="it.polimi.tiw.controllers.CreateDescrizione.doPost">
+<area shape="rect" id="node1" title="Handles POST requests to retrieve and display file information." alt="" coords="5,252,195,293"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#a3ac8369f579c9e0369b696e815d61239" title="Retrieves the details of a specific file." alt="" coords="244,209,475,235"/>
+<area shape="rect" id="node10" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a03eae7920e96789488974a59cdac7828" title="Gets the unique identifier for the user." alt="" coords="253,259,465,286"/>
+<area shape="rect" id="node11" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#aac9199ca4757e1665088c7354b9fc896" title="Gets the name of the file or directory." alt="" coords="243,310,476,337"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a5e9b6ca4acf250ad85c3ffbed185a6a8" title="Sets the creation date of the file or directory." alt="" coords="543,5,737,47"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#ad977de54872921aa6f05b516c7660b37" title="Sets the description of the file or directory." alt="" coords="543,71,737,112"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#ac9c2bc38db72e6b30deffba5831024dc" title="Sets the parent directory ID." alt="" coords="543,136,737,177"/>
+<area shape="rect" id="node6" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a9e7dfd6b2ae148836dc11b63b020d58c" title="Sets the document ID." alt="" coords="543,201,737,243"/>
+<area shape="rect" id="node7" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a68e8a27f3a7e1bde9ef03415dcbe8b93" title="Sets the name of the file or directory." alt="" coords="524,267,756,294"/>
+<area shape="rect" id="node8" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#afed421644e245fc98493e82ae7d4794c" title="Sets the name of the parent directory." alt="" coords="543,319,737,360"/>
+<area shape="rect" id="node9" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a43ccefc7eb7dd285a0ab4f9b6e59895a" title="Sets the type of the file." alt="" coords="529,385,751,411"/>
+</map>

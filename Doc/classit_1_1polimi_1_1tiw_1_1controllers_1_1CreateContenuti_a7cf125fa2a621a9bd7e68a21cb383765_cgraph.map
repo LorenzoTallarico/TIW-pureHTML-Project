@@ -1,0 +1,12 @@
+<map id="it.polimi.tiw.controllers.CreateContenuti.doPost" name="it.polimi.tiw.controllers.CreateContenuti.doPost">
+<area shape="rect" id="node1" title="Handles POST requests for creating contents." alt="" coords="5,231,181,272"/>
+<area shape="rect" id="node2" href="$classit_1_1polimi_1_1tiw_1_1dao_1_1FileDAO.html#ae7b374ef44561b4aa30ea2aecf2b90da" title="Retrieves all files in a specific directory owned by a user." alt="" coords="231,201,439,243"/>
+<area shape="rect" id="node10" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1User.html#a03eae7920e96789488974a59cdac7828" title="Gets the unique identifier for the user." alt="" coords="229,267,441,294"/>
+<area shape="rect" id="node3" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a5e9b6ca4acf250ad85c3ffbed185a6a8" title="Sets the creation date of the file or directory." alt="" coords="509,5,702,47"/>
+<area shape="rect" id="node4" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#ad977de54872921aa6f05b516c7660b37" title="Sets the description of the file or directory." alt="" coords="509,71,702,112"/>
+<area shape="rect" id="node5" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#ac9c2bc38db72e6b30deffba5831024dc" title="Sets the parent directory ID." alt="" coords="509,136,702,177"/>
+<area shape="rect" id="node6" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a9e7dfd6b2ae148836dc11b63b020d58c" title="Sets the document ID." alt="" coords="509,201,702,243"/>
+<area shape="rect" id="node7" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a68e8a27f3a7e1bde9ef03415dcbe8b93" title="Sets the name of the file or directory." alt="" coords="489,267,721,294"/>
+<area shape="rect" id="node8" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#afed421644e245fc98493e82ae7d4794c" title="Sets the name of the parent directory." alt="" coords="509,319,702,360"/>
+<area shape="rect" id="node9" href="$classit_1_1polimi_1_1tiw_1_1beans_1_1File.html#a43ccefc7eb7dd285a0ab4f9b6e59895a" title="Sets the type of the file." alt="" coords="495,385,716,411"/>
+</map>
