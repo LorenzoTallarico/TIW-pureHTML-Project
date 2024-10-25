@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" href="../PureHtmlTallarico/css/myStyleHome.css">
+<meta charset="UTF-8">
+<title>NAS</title>
+</head>
+<body>
+    <h1>NAS-Home!</h1>
+    <h3 th:text="${'Benvenuto ' + session.user.nome + ' nel servizio NAS!'}"></h3>
+    <ul class="tree">
+        <li th:each="file : ${lista}" >
+            <form action="createcontenuti" method="post">
+                <input type="hidden" name="idDir" th:value="${file.idDocu}" />
+                <button type="submit" th:if="${file.tipo == 'dir'}"> 
+    				<span class="icon dir"></span>
+    				<span th:text="${file.nome}"></span> <!-- Nome del file -->
+				</button> 
+                <button type="submit" th:if="${file.tipo != 'dir'}"> 
+    				<span class="icon file"></span>
+    				<span th:text="${file.nome}"></span> <!-- Nome del file -->
+				</button>
+            </form>
+            <section th:if="${file.figli}">
+                <ul class="tree">
+                    <section th:replace="/WEB-INF/Home.html :: treeViewer(${file.figli})" th:if="${file.tipo != null}"></section>
+                </ul>
+            </section>
+        </li>
+    </ul>
+
+    <section th:fragment="treeViewer(children)">
+        <li th:each="file : ${children}">
+            <form action="createcontenuti" method="post">
+                <input type="hidden" name="idDir" th:value="${file.idDocu}" />
+                <button type="submit" th:if="${file.tipo == 'dir'}"> 
+    				<span class="icon dir"></span>
+    				<span th:text="${file.nome}"></span> <!-- Nome del file -->
+				</button>
+                <button type="submit" th:if="${file.tipo != 'dir'}"> 
+    				<span class="icon file"></span>
+    				<span th:text="${file.nome}"></span> <!-- Nome del file -->
+				</button>
+            </form>
+            <section th:if="${file.figli}">
+                <ul class="tree">
+                    <section th:replace="/WEB-INF/Home.html :: treeViewer(${file.figli})" th:if="${file.tipo != null}"></section>
+                </ul>
+            </section>
+        </li>
+    </section>
+    <div th:if="${homeError}">
+		<p th:utext="${homeError}"></p>
+	</div>
+	<br/>
+	<form action="logout" method="post">
+    	<button type="submit" class="btn logout">Logout</button>
+	</form>
+	<br/>
+	<form action="creategestionecontenuti" method="post">
+    	<button type="submit" class="btn accedi">Nuovo File/Dir</button>
+	</form>
+</body>
+</html>

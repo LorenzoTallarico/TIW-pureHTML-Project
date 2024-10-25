@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<link rel="stylesheet" href="../PureHtmlTallarico/css/myStyleHome.css">
+		<meta charset="UTF-8">
+		<title>NAS</title>
+		<style>
+        	body {
+            	align-content       : center;
+    			align-items         : center;
+    			text-align          : center;
+        	}
+    	</style>
+	</head>
+	<body >
+	<h1>NAS!</h1>
+	<h3>Nuovo file o Cartella</h3>
+	<form action="createfile" method="post">
+		<br /> 
+		<h5>Inserire nome*: </h5>
+		<input type="text" name="nome" placeholder="nome" required/>
+		<h5>Selezionare dir in cui creare: (i file non possone essere messi in Root)</h5>
+		<select name="dirPadre">
+			<option value="0" selected> Root </option>
+			<option th:each="file : ${lista}" th:value="${file.idDocu}" th:text="${file.nome}"></option>
+		</select>
+		<h5>Selezionare se file o dir: </h5>
+		<input type="radio" name="tipo1" value="dir" checked> Dir
+		<input type="radio" name="tipo1" value="file"> File
+		<h5>Inserire estensione (se file): </h5>
+		<input type="text" name="tipo2" placeholder="estensione" />
+		<h5>Inserire descrizione (se file): </h5>
+		<textarea rows="3" cols="50" name="description"></textarea>
+		<br /> 
+		<button class="btn registra" type="submit">Crea</button>
+		<button class="btn reset" type="reset">Reset</button>
+	</form>
+	<br />
+	<div th:if="${createFileError}">
+		<p th:utext="${createFileError}"></p>
+	</div>
+	<br />
+	<form action="createhome" method="post">
+		<button type="submit" class="btn logout">Indietro</button>
+	</form>
+	<br />
+	<form text-align: right action="logout" method="post">
+		<button type="submit" class="btn logout">Logout</button>
+	</form>
+
+	</body>
+</html>
+

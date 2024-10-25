@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" href="../PureHtmlTallarico/css/myStyleHome.css">
+<meta charset="UTF-8">
+<title>NAS</title>
+</head>
+<body>
+	<h1>NAS!</h1>
+	<h3> Seleziona la cartella in cui spostare il file</h3>
+	 <ul class="tree">
+        <li th:each="file : ${lista}" >
+            <form action="sposta" method="post">
+                <input type="hidden" name="idDirDest" th:value="${file.idDocu}" />
+                <input type="hidden" name="idPartenza" th:value="${idPartenza}" />
+                <button th:attr="type=${file.idDocu == dirPadre ? 'button' : 'submit'}" th:if="${file.tipo == 'dir'}"> 
+    				<span class="icon dir"></span>
+    				<span th:classappend="${file.idDocu == dirPadre ? 'red-text' : ''}" th:text="${file.nome}"></span> <!-- Nome del file -->
+				</button> 
+                <button type="button" th:if="${file.tipo != 'dir'}"> 
+    				<span class="icon file"></span>
+    				<span th:classappend="${file.idDocu == idPartenza ? 'red-text' : ''}" th:text="${file.nome}"></span> <!-- Nome del file -->
+				</button>
+            </form>
+            <section th:if="${file.figli}">
+                <ul class="tree">
+                    <section th:replace="/WEB-INF/Sposta.html :: treeViewer(${file.figli})" th:if="${file.tipo != null}"></section>
+                </ul>
+            </section>
+        </li>
+    </ul>
+
+    <section th:fragment="treeViewer(children)">
+        <li th:each="file : ${children}">
+            <form action="sposta" method="post">
+                <input type="hidden" name="idDirDest" th:value="${file.idDocu}" />
+                <input type="hidden" name="idPartenza" th:value="${idPartenza}" />
+                <button th:attr="type=${file.idDocu == dirPadre ? 'button' : 'submit'}" th:if="${file.tipo == 'dir'}"> 
+    				<span class="icon dir"></span>
+    				<span th:classappend="${file.idDocu == dirPadre ? 'red-text' : ''}" th:text="${file.nome}"></span> <!-- Nome del file -->
+				</button>
+                <button type="button" th:if="${file.tipo != 'dir'}"> 
+    				<span class="icon file"></span>
+    				<span th:classappend="${file.idDocu == idPartenza ? 'red-text' : ''}" th:text="${file.nome}"></span> <!-- Nome del file -->
+				</button>
+            </form>
+            <section th:if="${file.figli}">
+                <ul class="tree">
+                    <section th:replace="/WEB-INF/Sposta.html :: treeViewer(${file.figli})" th:if="${file.tipo != null}"></section>
+                </ul>
+            </section>
+        </li>
+    </section>
+    <div th:if="${SpostaError}">
+		<p th:utext="${spostaError}"></p>
+	</div>
+	<br/>
+	<form action="createcontenuti" method="post">
+		<input type="hidden" name="idDir" th:value="${dirPadre}"/>
+    	<button type="submit" class="btn logout">Indietro</button>
+	</form>
+	<br/>
+	<form action="logout" method="post">
+    	<button type="submit" class="btn logout">Logout</button>
+	</form>
+	
+</body>
+</html>

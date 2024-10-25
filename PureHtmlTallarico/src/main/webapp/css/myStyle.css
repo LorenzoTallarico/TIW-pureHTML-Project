@@ -1,0 +1,69 @@
+
+.btn {
+    border              : none;
+    background-color    : inherit;
+    padding             : 14px 28px;
+    font-size           : 16px;
+    cursor              : pointer;
+    display             : inline-block;
+}
+
+/* Green */
+.accedi {
+    color               : green;
+}
+
+.accedi:hover {
+    background-color    : green;
+    color               : white;
+}
+
+/* Blue */
+.reset {
+    color               : dodgerblue;
+}
+
+.reset:hover {
+    background          : dodgerblue;
+    color               : white;
+}
+
+/* Red */
+.cancella {
+    color               : red;
+}
+
+.cancella:hover {
+    background          : red;
+    color               : white;
+}
+  
+/*Gold */
+.registra {
+    color               : gold;
+}
+
+.registra:hover {
+    background          : gold;
+    color               : white;
+}
+
+h1{
+    color               : blue;
+    font-style          : italic;
+}
+label{
+    color               : darkorange;
+    font-style          : bold;
+}
+td {
+    border              : 2px solid #333; /* stili del bordo  */
+    padding             : 4px; /* spazio nelle celle */
+    text-align          : center; /* allineamento al centro  */
+   }
+body {
+	background-image    : linear-gradient(to right, #b6fbff, #19b5f7);
+    align-content       : center;
+    align-items         : center;
+    text-align          : center;
+}

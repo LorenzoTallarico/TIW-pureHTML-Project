@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" href="css/myStyle.css" />
+</head>
+
+<body>
+	<h1>Login Page</h1>
+
+	<form action="checklogin" method="post">
+		<h3>Inserire mail</h3>
+		<br /> <input type="text" name="mail" placeholder="example@mail.com" required/>
+		<br />
+		<h3>Inserire password</h3>
+		<br /> <input type="password" name="psw" required/> <br /> <br />
+		<button class="btn accedi" type="submit">Accedi</button>
+		<button class="btn reset" type="reset">Reset</button>
+	</form>
+	<br />
+	<form action="Registrazione.html">
+		<button class="btn registra" type="submit">Registrati</button>
+	</form>
+
+	<div th:if="${loginError}">
+		<p th:utext="${loginError}"></p>
+	</div>
+</body>
+
+</html>
+
+<!-- maxlength        = 20 required -->

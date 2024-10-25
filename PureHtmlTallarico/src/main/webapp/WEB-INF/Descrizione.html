@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" href="../PureHtmlTallarico/css/myStyleHome.css">
+<meta charset="UTF-8">
+<title>NAS</title>
+</head>
+<body>
+	<h1>NAS!</h1>
+	<h5 th:text="${'File di '+ session.user.nome }"></h5>
+	 <ul>
+        <li>Nome: <span th:text="${file.nome}"></span></li>
+        <li>Data di Creazione: <span th:text="${file.creazione}"></span></li>
+        <li>Contenuto in: <span th:text="${file.nomePadre}"></span></li>
+        <li>Tipo: <span th:text="${file.tipo}"></span></li>
+        <li>Descrizione: <span th:text="${file.descrizione}"></span></li>
+    </ul>
+    <div th:if="${descrizioneError}">
+		<p th:utext="${descrizioneError}"></p>
+	</div>
+	<br/>
+	<form action="createcontenuti" method="post">
+		<input type="hidden" name="idDir" th:value="${file.idDirPadre}" />
+    	<button type="submit" class="btn logout">Indietro</button>
+	</form>
+	<br/>
+	<form action="logout" method="post">
+    	<button type="submit" class="btn logout">Logout</button>
+	</form>
+	
+</body>
+</html>

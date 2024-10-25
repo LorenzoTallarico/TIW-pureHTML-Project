@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" href="../PureHtmlTallarico/css/myStyleHome.css">
+<meta charset="UTF-8">
+<title>NAS</title>
+</head>
+<body>
+	<h1>NAS!</h1>
+	<h3 th:if="${nomePadre != null}" th:text="'Contenuto cartella ' + ${nomePadre}"></h3>
+	 <ul class="tree">
+        <li th:each="file : ${lista}" >
+            <form  action="createdescrizione" method="post">
+            	<input type="hidden" name="idDocu" th:value="${file.idDocu}" />
+                <button type="submit" th:if="${file.tipo == 'dir'}"> 
+    				<span class="icon dir"></span>
+    				<span th:text="${file.nome}"></span> <!-- Nome del file -->
+				</button> 
+                <button type="submit" th:if="${file.tipo != 'dir'}"> 
+    				<span class="icon file"></span>
+    				<span th:text="${file.nome}"></span> <!-- Nome del file -->
+				</button>
+			</form>
+			<form action="createsposta" method="post">
+            	<input type="hidden" name="idDocu" th:value="${file.idDocu}" />
+            	<input type="hidden" name="idDirPadre" th:value="${file.idDirPadre}" />
+            	<button type="submit" class="icon sposta"> 
+                	<span class="icon sposta"></span> <!-- Aggiunta della classe sposta -->
+                	<span th:text="Sposta"></span> <!-- Nome del file -->
+            	</button>
+        	</form>
+        </li>
+    </ul>
+    <div th:if="${contenutiError}">
+		<p th:utext="${contenutiError}"></p>
+	</div>
+	<br/>
+	<form action="createhome" method="post">
+    	<button type="submit" class="btn logout">Indietro</button>
+	</form>
+	<br/>
+	<form text-align: right action="logout" method="post">
+    	<button type="submit" class="btn logout">Logout</button>
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,159 @@
+body {
+	background-image: linear-gradient(to right, #b6fbff, #19b5f7);
+}
+
+.tree, .tree ul {
+	margin: 0 0 0 1em; /* indentation */
+	padding: 0;
+	list-style: none;
+	color: #369;
+	position: relative;
+}
+
+.tree ul {
+	margin-left: .5em
+} /* (indentation/2) */
+.tree:before, .tree ul:before {
+	content: "";
+	display: block;
+	width: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	border-left: 1px solid;
+}
+
+.tree li {
+	margin: 0;
+	padding: 0 1.5em; /* indentation + .5em */
+	line-height: 2em; /* default list item's `line-height` */
+	font-weight: bold;
+	position: relative;
+}
+
+.tree li:before {
+	content: "";
+	display: block;
+	width: 10px; /* same with indentation */
+	height: 0;
+	border-top: 1px solid;
+	margin-top: -1px; /* border top width */
+	position: absolute;
+	top: 1em; /* (line-height/2) */
+	left: 0;
+}
+
+.tree li:last-child:before {
+	background: #b6fbff; /* same with body background */
+	height: auto;
+	top: 1em; /* (line-height/2) */
+	bottom: 0;
+}
+
+.tree li span.icon::before {
+	content: '';
+	display: inline-block;
+	width: 20px; /* Larghezza dell'icona */
+	height: 20px; /* Altezza dell'icona */
+	background-size: cover; /* Dimensioni del background */
+	background-repeat: no-repeat; /* Non ripetere l'icona */
+	margin-right: 5px;
+	/* Opzionale: Aggiunge un margine tra l'icona e il testo */
+	vertical-align: middle;
+	/* Centra l'icona verticalmente rispetto al testo */
+}
+
+.tree li span.icon.dir::before {
+	background-image: url('../resources/directoryIcon.png');
+	/* Percorso dell'icona per le directory */
+}
+
+.tree li span.icon.file::before {
+	background-image: url('../resources/fileIcon.png');
+	/* Percorso dell'icona per i file */
+}
+
+.tree li span.icon.sposta::before {
+	background-image: url('../resources/spostaIcon.png');
+	/* Percorso dell'icona per sposta */
+}
+
+.tree button {
+    opacity: 0.7;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.tree button:hover {
+	background-color: transparent;
+	opacity: 0.9;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.red-text {
+    color: red; 
+}
+
+.btn {
+	border: none;
+	background-color: inherit;
+	padding: 6px 14px;
+	font-size: 12px;
+	cursor: pointer;
+	display: inline-block;
+	
+}
+
+.logout {
+	color: red;
+}
+
+.logout:hover {
+	background: red;
+	color: white;
+}
+.accedi {
+    color               : green;
+}
+
+.accedi:hover {
+    background-color    : green;
+    color               : white;
+}
+
+/* Blue */
+.reset {
+    color               : dodgerblue;
+}
+
+.reset:hover {
+    background          : dodgerblue;
+    color               : white;
+}
+
+/* Red */
+.cancella {
+    color               : red;
+}
+
+.cancella:hover {
+    background          : red;
+    color               : white;
+}
+  
+/*Gold */
+.registra {
+    color               : gold;
+}
+
+.registra:hover {
+    background          : gold;
+    color               : white;
+}
